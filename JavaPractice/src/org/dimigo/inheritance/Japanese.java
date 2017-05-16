@@ -26,4 +26,7 @@ public class Japanese extends Person{
 	public void sayBye(){
 		System.out.println("사요나라");
 	}
+	public String toString(){
+		return "저는 일본사람 " + getName() + "입니다.";
+	}
 }

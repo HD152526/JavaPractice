@@ -26,4 +26,7 @@ public class Chinese extends Person{
 	public void sayBye(){
 		System.out.println("쨔이찌엔");
 	}
+	public String toString(){
+		return "저는 중국사람 " + getName() + "입니다."; 
+	}
 }
