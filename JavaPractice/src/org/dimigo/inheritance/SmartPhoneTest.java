@@ -26,11 +26,14 @@ public class SmartPhoneTest {
 		for(SmartPhone phones : phone){
 			System.out.println(phones.toString());
 			phones.turnOn();
+			// 자식클래스에서 오버라이딩한 pay()가 실행됨
 			phones.pay();
+			
+			// IPhone 또는 Galaxy에 있는 특별 기능 사용하기
 			phones.useSpecialFunction(phones);
 			phones.turnOff();
 			
-			
+			System.out.println();
 		}
 
 	}

@@ -33,7 +33,7 @@ public class MelonGenreChart {
 		dancelist.add(new Music("I LUV IT", "PSY"));
 		dancelist.add(new Music("맞지?", "언니쓰"));
 		
-		System.out.println("-- << 멜론 장르별 챠트 >> --");//lkjb  nn
+		System.out.println("-- << 멜론 장르별 챠트 >> --");
 		printMap(map);
 		
 		System.out.println("-- << 댄스 2위 곡 변경 >> --");

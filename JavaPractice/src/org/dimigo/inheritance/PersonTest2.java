@@ -17,6 +17,21 @@ package org.dimigo.inheritance;
  */
 public class PersonTest2 {
 	
+	public static void main(String[] args) {
+		// 배열을 이용한 다형성 구현
+		Person[] people = {
+				new Person("Tom"),
+				new Korean("홍길동"),
+				new Japanese("다나카"),
+				new Chinese("왕밍")
+		};
+	 for(Person p : people){
+		// 매개변수를 이용한 다형성 구현
+		greeting(p);
+	 }
+		
+	}
+	
 	private static void greeting(Person p){
 		System.out.println(p.toString());
 		p.sayHello();
@@ -24,16 +39,4 @@ public class PersonTest2 {
 		System.out.println();
 	}
 	
-	public static void main(String[] args) {
-		Person[] person = {
-				new Person("Tom"),
-				new Korean("홍길동"),
-				new Japanese("다나카"),
-				new Chinese("왕밍")
-		};
-	 for(Person persons : person){
-		greeting(persons);
-	 }
-		
-	}
 }

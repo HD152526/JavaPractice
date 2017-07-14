@@ -17,9 +17,6 @@ package org.dimigo.basic;
  */
 public class Operator {
 
-	/**
-	 * @param args
-	 */
 	public static void main(String[] args) {
 		int money = 1700000;
 		int salary = 3;
@@ -29,6 +26,6 @@ public class Operator {
 		System.out.println("점포 내 직원 수 : " + salary + "명\n");
 		System.out.println("점포 수 : " + String.format("%,d", store) + "개\n\n");
 		System.out.println("연간 인건비 : " + String.format("%,d", (long)money*12*salary*store)+"원");
-	}
 
+	}	
 }

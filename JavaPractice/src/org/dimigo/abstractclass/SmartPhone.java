@@ -38,6 +38,8 @@ public abstract class SmartPhone {
 	public abstract void pay();
 	
 	public void useSpecialFunction(){
+		// 인스턴스 메소드이므로 객체가 생성된 후 호출됨
+		// 생성된 자신의 객체에 접근하기 위해 this 사용
 		if(this instanceof IPhone) {
 			IPhone iphone = (IPhone)this;
 			iphone.useAirDrop();

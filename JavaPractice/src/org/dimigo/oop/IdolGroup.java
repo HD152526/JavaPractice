@@ -17,11 +17,8 @@ package org.dimigo.oop;
  */
 public class IdolGroup {
 
-	/**
-	 * @param args
-	 */
 	public static void main(String[] args) {
-		String[] groupName ={"빅뱅", "2NE1", "트와이스"};
+		String[] groupName = {"빅뱅", "2NE1", "트와이스"};
 		
 		String[][] memberName = {
 				{"GD", "태양", "탑", "대성", "승리"},

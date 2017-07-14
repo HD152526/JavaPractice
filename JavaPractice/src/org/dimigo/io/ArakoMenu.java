@@ -33,7 +33,7 @@ public class ArakoMenu {
 			while((str = br.readLine()) != null){
 				writer.write(str + "\n");
 			}
-			writer.flush();
+			writer.flush();  //버퍼에 있는 메모리를 비우고 txt파일로 보냄 
 			
 			System.out.println("<< 메뉴 출력 >>");
 			while((str = reader.readLine()) != null){

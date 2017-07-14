@@ -17,9 +17,6 @@ package org.dimigo.basic;
  */
 public class PrimitiveDataType {
 
-	/**
-	 * @param args
-	 */
 	public static void main(String[] args) {
 		String name = "아이유";
 		boolean isMale = false;
@@ -35,6 +32,7 @@ public class PrimitiveDataType {
 		System.out.printf("몸무게 : %.1fkg\n", weight);
 		System.out.printf("혈액형 : %c형\n", bloodType);
 
+		
 	}
 
 }

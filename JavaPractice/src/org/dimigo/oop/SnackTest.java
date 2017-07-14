@@ -30,6 +30,6 @@ public class SnackTest {
 		for(int i = 0; i < snackArr.length; i++){
 			sum += snackArr[i].calcPrice();
 	}
-		System.out.println("총 구매 금액:" + String.format("%,d", sum) + "원");
+		System.out.println("총 구매 금액: " + String.format("%,d", sum) + "원");
 	}
 }

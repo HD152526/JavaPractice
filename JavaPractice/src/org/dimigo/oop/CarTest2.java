@@ -16,10 +16,6 @@ package org.dimigo.oop;
  * @version 	: 1.0
  */
 public class CarTest2 {
-
-	/**
-	 * @param args
-	 */
 	public static void main(String[] args) {
 		
 		System.out.println("<<자동차 목록>>");

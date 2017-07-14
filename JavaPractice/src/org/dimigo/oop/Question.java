@@ -19,9 +19,6 @@ import java.util.Scanner;
  */
 public class Question {
 
-	/**
-	 * @param args
-	 */
 	public static void main(String[] args) {
 		String[] question = {"가장 좋아하는 가수는?","가장 좋아하는 배우는?", "가장 좋아하는 과목은?"};
 		String[] answer = {"빅뱅", "원빈", "수학"};
@@ -29,7 +26,7 @@ public class Question {
 		for(int i = 0; i < 3; i++){
 			System.out.println((i + 1) + "." + question[i]);		
 			String Answer = scanner.nextLine();
-			
+			scanner.close();
 			if(answer[i].equals(Answer)){
 				System.out.println("정답입니다!");
 			}
@@ -38,7 +35,7 @@ public class Question {
 		}
 		
 		System.out.println("<< 결과출력 >>");
-		StringBuilder s= new StringBuilder();
+		StringBuilder s = new StringBuilder();
 		for(int i = 0; i < 3; i++){
 			s.append(question[i]);
 			s.append(answer[i]);

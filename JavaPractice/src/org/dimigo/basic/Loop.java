@@ -20,9 +20,6 @@ import java.util.Scanner;
  */
 public class Loop {
 
-	/**
-	 * @param args
-	 */
 	public static void main(String[] args) {
 		int choice;
 		int i = 100;
@@ -61,7 +58,6 @@ public class Loop {
 			}
 		}while(choice != 9);
 		
-
 	}
 
 }

@@ -27,12 +27,28 @@ public class FamilyMember {
 
 	public String getMemberName() {
 		return memberName;
+	
 	}
 	
 	public static void printMemberCnt(){
-		System.out.printf("가족 총 인원수 : %d명",memberCnt);
+		System.out.printf("가족 총 인원 수 : %d명", memberCnt);
 		System.out.println();
 	}
+	
 
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 }

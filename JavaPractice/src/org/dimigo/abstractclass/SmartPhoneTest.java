@@ -27,9 +27,11 @@ public class SmartPhoneTest {
 			System.out.println(phones.toString());
 			phones.turnOn();
 			phones.pay();
-			phones.useSpecialFunction();
-			phones.turnOff();
 			
+			phones.useSpecialFunction();
+			
+			phones.turnOff();
+			System.out.println();
 			
 		}
 
